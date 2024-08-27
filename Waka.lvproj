@@ -99,6 +99,7 @@
 				<Item Name="PCAN Get ACCEPTANCE_FILTER_11BIT.vi" Type="VI" URL="/&lt;instrlib&gt;/KDI Digital Instrumentation/API_for_PCAN_BASIC_FD/PCAN Get ACCEPTANCE_FILTER_11BIT.vi"/>
 				<Item Name="PCAN Get 5VOLTS POWER.vi" Type="VI" URL="/&lt;instrlib&gt;/KDI Digital Instrumentation/API_for_PCAN_BASIC_FD/PCAN Get 5VOLTS POWER.vi"/>
 				<Item Name="CAN Get Value.vi" Type="VI" URL="/&lt;instrlib&gt;/KDI Digital Instrumentation/API_for_PCAN_BASIC_FD/CAN Get Value.vi"/>
+				<Item Name="IT6000C.lvlib" Type="Library" URL="/&lt;instrlib&gt;/IT6000C/IT6000C.lvlib"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Conditional Auto-Indexing Tunnel (Bool)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (Bool)__ogtk.vi"/>
@@ -582,10 +583,10 @@
 			</Item>
 			<Item Name="Frame Signal Conversion.lvclass" Type="LVClass" URL="../../PROD_LabView_Libraries/PCAN-XNET/Frame signal conversion/Frame Signal Conversion Version 8/Frame Signal Conversion.lvclass"/>
 			<Item Name="Frame signal conversion.lvlib" Type="Library" URL="../../PROD_LabView_Libraries/Frame signal conversion/Frame signal conversion.lvlib"/>
-			<Item Name="Convert Signals to Frames.vi" Type="VI" URL="../../PROD_LabView_Libraries/PCAN-XNET/Frame signal conversion/Frame Signal Conversion Version 8/Convert Signals to Frames.vi"/>
-			<Item Name="Convert Signals to Frames [Doubles].vi" Type="VI" URL="../../PROD_LabView_Libraries/PCAN-XNET/Frame signal conversion/Frame Signal Conversion Version 8/Signals to Frames/Convert Signals to Frames [Doubles].vi"/>
-			<Item Name="Convert between frame types.vi" Type="VI" URL="../../PROD_LabView_Libraries/PCAN-XNET/Convert between frame types.vi"/>
 			<Item Name="CAN Frame Conversion - Init DBC.vi" Type="VI" URL="../../PROD_LabView_Libraries/PCAN-XNET/CAN Frame Conversion - Init DBC.vi"/>
+			<Item Name="Misc functions.lvlib" Type="Library" URL="../../PROD_LabView_Libraries/Misc functions/Misc functions.lvlib"/>
+			<Item Name="Generate BCI frames.vi" Type="VI" URL="../../PROD_LabView_Libraries/PCAN-XNET/Generate BCI frames.vi"/>
+			<Item Name="Read can to signal maps.vi" Type="VI" URL="../../PROD_LabView_Libraries/PCAN-XNET/Read can to signal maps.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -609,7 +610,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/production test exe/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D4140B27-D6F8-4B64-A178-3891206C34C8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{06BF776C-5104-460C-876A-BDE8F0F64121}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Waka front panel.vi</Property>
